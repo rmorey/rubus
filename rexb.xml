@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Rutgers University 2016.">
+<predictions agencyTitle="Rutgers University" routeTitle="REX B" routeTag="rexb" stopTitle="Hill Center" stopTag="hilln">
+  <direction title="To College Hall">
+  <prediction epochTime="1456453410235" seconds="283" minutes="4" isDeparture="false" affectedByLayover="true" dirTag="rexb_inbound" vehicle="4213" block="XB06" />
+  <prediction epochTime="1456454208128" seconds="1081" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="rexb_inbound" vehicle="4187" block="XB07" />
+  <prediction epochTime="1456454407857" seconds="1281" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="rexb_inbound" vehicle="4176" block="XB04" />
+  <prediction epochTime="1456455487857" seconds="2361" minutes="39" isDeparture="false" affectedByLayover="true" dirTag="rexb_inbound" vehicle="4213" block="XB06" />
+  <prediction epochTime="1456456070303" seconds="2943" minutes="49" isDeparture="false" affectedByLayover="true" dirTag="rexb_inbound" vehicle="4187" block="XB07" />
+  </direction>
+</predictions>
+</body>
