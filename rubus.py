@@ -11,3 +11,8 @@ def get_predictions(route,stop):
     for p in root[0][0]:
         t = datetime.now()+timedelta(seconds=int(p.get('seconds')))
         print(p.get('minutes')+" minutes at " + str(t.strftime("%I:%M %p")))
+
+def list_routes():
+    url = API_URL.format(c="routeList")
+    root = ET.fromstring(requests.get(url).text)
+    print root
