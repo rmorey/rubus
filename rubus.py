@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
-AGENCY = 'rutgers'
+AGENCY = "rutgers"
 API_URL = "http://webservices.nextbus.com/service/publicXMLFeed?a="+AGENCY+"&command={c}"
 
 def get_predictions(route,stop):
